@@ -217,10 +217,10 @@
                        <c:if test="${sessionScope.userName!=null}" var="condition" scope="session">
                            ${sessionScope.userName}
     　　           </c:if>
-                        <br><a href="${ctx}/vip"  style="font-size: 12px;color: #666;text-decoration: none" target="_blank">进入会员中心</a>
+                        <br><a href="${ctx}/vip"  style="font-size: 12px; position: absolute; top: 94px; right: 5%; color: #666;text-decoration: none" target="_blank">进入会员中心</a>
                         </span>
 							</div>
-							<input type="button" onclick="exit()" value="退出" style="width: 40px;background: 0;border: 0;margin-left: 15px;cursor: pointer;color: #666;font-size: 12px">
+							<input type="button" onclick="exit()" value="退出" style="width: 40px;background: 0;border: 0;cursor: pointer;color: #666;font-size: 12px">
 						</div>
 					</c:otherwise>
 				</c:choose>

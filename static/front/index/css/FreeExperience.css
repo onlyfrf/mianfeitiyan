@@ -84,7 +84,7 @@ body{
 	}
 	.fe_container{
 		width:100% ;
-		height: 3853px;
+		height: 3789px;
 	}
 	.comm{
 		width: 100%;
@@ -97,11 +97,11 @@ body{
 	.content-jpg .setM .setmessage{
 		height: 70px;
 		width: 80%;
-		margin: 0 auto;
+		margin: 17px auto 0 auto;
 	}
 	.fe_container{
 		width:100% ;
-		height: 3953px;
+		height: 4048px;
 	}
 	.content-jpg .setM .setmessage-e{
 		width: 80%;
@@ -153,34 +153,32 @@ body{
 		margin: 0 auto !important;
 	}
 	.fe_container{
-		height: 3699px;
+		height: 4048px;
 	}
 
 }
-@media (max-width: 744px) {
+@media (max-width: 772px) {
 	.fe_container{
-		height: 3726px;
+		height: 4096px;
 	}
 }
 @media (max-width: 715px) {
 	.fe_container{
-		height: 3774px;
+		height: 4092px;
 	}
 }
 @media (max-width:684px ) {
 	
 	
-	.logo,.header .phonebg{
+	.logo{
 		width: 50%;
 		margin: 30px auto !important;
-		/*float: none;*/
-		/*display: none;*/
+	}
+	.phonebg{
+		display: none;
 	}
 	.phone{
-		width: 50%;
-		float: none !important;
-		margin: 30px auto !important;
-		display: none
+		width: 40%;
 	}
 	.hhmf-top{
 		height: 164px !important;
@@ -192,7 +190,14 @@ body{
 		top: 134px !important;
 	}
 	.ng-scope{
-		height: 177px !important;
+		height: 122px !important;
+	}
+	.footer .content .last div{
+		width: 40%;
+	}
+	.footer .content .last div:last-child{
+		width: 100%;
+		margin-left: 0 !important;
 	}
 	.content-jpg .setM{
 		width: 100%;
@@ -209,22 +214,21 @@ body{
 		display: block;
 	}
 	.content-jpg .setM .setmessage{
-		height: 130px;
+		height: 87px;
 	}
 	.content-jpg .setM .setmessage span{
 		display: block;
-		width: 55%;
+		width: 80%;
+		position: relative;
+		top: 10px;
 	}
 	.content-jpg .setM .setmessage input,.content-jpg .setM .setmessage select{
 		width: 57%;
 		margin: 0 auto !important;
 	}
-	.fe_container{
-		height: 4183px;
-	}
+	
 	.content-jpg .setM .setmessage-e textarea{
-		width: 80%;
-		margin-top: 10px;
+		width: 58%;
 	}
 	.content-jpg .btn-box button{
 		margin-left: -60px;
@@ -232,13 +236,104 @@ body{
 	.free_title3,
 	.free_title2{
 		
-	}
+	}	
 }
-@media  (max-width:620px) {
+@media (max-width:692px ) {
+		.fe_container{
+			height: 4106px;
+		}
+}
+@media (max-width:685px ) {
 	.fe_container{
-		height: 4291px;
+			height: 4281px;
+		}
+}
+@media  (max-width:645px) {
+	.fe_container{
+		height: 4306px;
+    	background-position: 50% 50%;
+    	background-size: 646px 4368px;
 	}
 	.reset-show{
 		display: none;
+	}
+}
+@media (max-width:628px ) {
+	.fe_container{
+		height: 4323px;
+	}
+}
+@media (max-width:608px ) {
+	.fe_container{
+		height: 4343px;
+	}
+}
+
+@media (max-width:582px ) {
+	.fe_container{
+		height: 4363px;
+		}
+}
+@media (max-width:525px ) {
+	.fe_container{
+		height: 4390px;
+		background-size: 646px 4390px;
+	}
+}
+@media (max-width:520px ) {
+	.fe_container{
+		height: 4418px;
+		background-size: 646px 4418px;
+	}
+}
+@media (max-width:506px ) {
+	.content-jpg .setM .setmessage-e textarea{
+		width: 85%;
+		margin-top: 10px;
+	}
+	.content-jpg .setM .setmessage-e span{
+		width: 100%;
+	}
+	.fe_container{
+		height: 4494px;
+		background-size: 646px 4494px;
+	}
+}
+@media (max-width:783px ) {
+	.footer .content .top{
+		width: 70%;
+	}
+}
+@media (max-width:626px ) {
+	.footer .content .top{
+		width: 80%;
+	}
+}
+@media (max-width:548px ) {
+	.footer .content .top{
+		width: 90%;
+	}
+}
+@media (max-width:487px ) {
+	.footer .content .top{
+		width: 100%;
+	}
+}
+@media (max-width:456px ) {
+	.footer .content .top{
+		width: 50%;
+	}
+	.footer .content .top .cut:nth-child(4){
+		display: none;
+	}
+	.footer .content .center{
+		margin: 54px auto 0 auto;
+	}
+}
+
+@media (max-width:769px ) {
+	.last{
+		width: 65%;
+		
 	}
 }
