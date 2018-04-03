@@ -1,0 +1,145 @@
+@keyframes text
+{
+    0%{
+        color: #fff;
+    }
+    25%{
+        color: red;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: #fff;
+    }
+}
+@keyframes text2
+{
+    0%{
+        color: red;
+    }
+    25%{
+        color: #fff;
+    }
+    50%{color: red;}
+    75%{
+        color: red;
+    }
+    100%{
+        color: red;
+    }
+}
+@keyframes text4
+{
+    0%{
+        color: red;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: #fff;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: red;
+    }
+}
+@keyframes text3
+{
+    0%{
+        color: red;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: red;
+    }
+    75%{
+        color: #fff;
+    }
+    100%{
+        color: red;
+    }
+}
+
+#tiy{
+    position: relative;
+    top: -45px;left: 100px;
+    width:43px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+/*ass*/
+
+.mm1{
+    animation:ss1  infinite;
+    -webkit-animation:ss1 3s infinite;
+    -ms-animation:ss1 3s infinite;
+    -moz-animation:ss1 3s infinite;
+    color: red;
+    font-size: 24px;
+}
+.mm2{
+    animation:ss2  infinite;
+    -webkit-animation:ss2 3s infinite;
+    -ms-animation:ss2 3s infinite;
+    -moz-animation:ss2 3s infinite;
+    color: red; font-size: 24px;
+} .mm3{
+      animation:ss3  infinite;
+      -webkit-animation:ss3 3s infinite;
+      -ms-animation:ss3 3s infinite;
+      -moz-animation:ss3 3s infinite;
+      color: red; font-size: 24px;
+  }
+.mm4{
+    animation:ss4  infinite;
+    -webkit-animation:ss4 3s infinite;
+    -ms-animation:ss4 3s infinite;
+    -moz-animation:ss4 3s infinite;
+    color: red; font-size: 24px;
+}
+@keyframes ss1
+{
+    0%{
+        color:#fff;
+    }
+}
+@keyframes ss2
+{
+    0%{
+        color:red;
+    }
+    25%{
+        color: #fff;
+    }
+}
+@keyframes ss3
+{
+    0%{
+        color:red;
+    }
+
+    50%{
+        color:#fff;
+    }
+}
+@keyframes ss4
+{
+    0%{
+        color:red;
+    }
+
+    75%{
+        color: #fff;
+    }
+
+}
+.navlist{
+    font-family: 微软雅黑,sans-serif;
+}

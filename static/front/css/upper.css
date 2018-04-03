@@ -1,0 +1,36 @@
+.user-hidden{
+    width: 90px;
+    display: none;
+    position: relative;
+    z-index: 9999999;
+}
+.user-name:hover .user-hidden{
+    display: block;
+}
+.user-hidden p{
+    text-align: center;
+    width: 65px;
+    line-height: 25px;
+    margin: 0;
+}
+.user-hidden{
+    background: white;
+    width:65px;
+    height: 16px;
+    border: 1px solid #666;
+    position: relative;z-index: 999999;
+}
+.user-hidden p{
+    text-align: center;
+    width: 63px;
+    line-height: 24px;
+    margin: 0;
+}
+.user-name{
+    width: auto;
+    height: 20px;
+    float: right;
+}
+/*.user{*/
+    /*cursor: pointer;*/
+/*}*/

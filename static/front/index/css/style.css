@@ -1,0 +1,137 @@
+html,body,div,span,iframe,map,font,img,a img,samp,strong,hr,
+h1,h2,h3,h4,h5,h6,b,p,blockquote,a,address,code,dl,dt,dd,ol,
+ul,li,form,label,table,tr,td,th{padding:0;margin:0;border:0;}
+body{
+    font-family: "微软雅黑",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    width: 1200px;
+    height: 112px;
+    margin: 0 auto;
+}
+.logo{
+    width: 216px;
+    height: 78px;
+    float: left;
+    margin-top: 10px;
+    background-image: url("../../../../static/front/images/logo.png");
+}
+.null{
+    width: 104px;
+    height: 93px;
+    float: right;
+}
+.header .phone{
+    float: right;
+    margin-top: 42px;
+}
+.header .phone span{
+    font-size: 14px;
+    color: #333;
+}
+a{
+    color: #333;
+}
+.header .phonebg{
+    width: 240px;
+    height: 45px;
+    float: right;
+    margin: 35px 10px 0 0;
+    background-image: url("../../../../static/front/images/contact.png");
+}
+.navlist{
+	width: 1200px;
+    height: 47px;
+    float: right;
+    background-image: url("../../../../static/front/images/nav.png");
+    background-size: 100% 100%;
+}
+.navlist li{
+    line-height: 47px;
+    float: left;
+    font-size: 18px;
+    color: white;
+}
+
+.navlist li a{
+    font-size: 18px;
+    color: white;
+}
+.navlist li{
+    /*margin-left: 2.8%;*/
+}
+.navlist .index{
+    /*margin-left: 31px;*/
+}
+
+
+/*脚部*/
+.footer{
+    width: 100%;
+    height: 222px;
+    background-color: white;
+}
+.footer .content{
+    width: 100%;
+    height: 210px;
+    margin: 0 auto;
+}
+.footer .content .top{
+    height: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+.footer .content .top div{
+    font-size: 13px;
+    color: #656565;
+    float: left;
+    margin-top: 20px;
+}
+.footer .content .top .cut{
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #D8D6D6;
+}
+.footer .content .center{
+    width: 100%;
+    margin: 26px 0 0 0;
+    height: 84px;
+    border-top: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+}
+.footer .content .center div{
+    font-size: 18px;
+    color: #656565;
+    float: left;
+    line-height: 90px;
+}
+.footer .content .center .lianjie{
+    width: 985px;
+    height: 48px;
+    margin: 10px 0 0 30px;
+}
+.footer .content .last div{
+    font-size: 13px;
+    color: #656565;
+    float: left;
+    margin: 20px 0 0 29px;
+}
+.ljgmbutton{
+    border: 0;
+    margin-left: 20px;
+    background: url(../../../../static/front/images/buttun-m.png);
+    width: 141px;
+    height: 51px;
+    color: #fff;
+    font-size: 20px;
+    font-family: '微软雅黑',sans-serif;
+    text-shadow: 1px 1px 3px #333;
+    cursor: pointer
+}

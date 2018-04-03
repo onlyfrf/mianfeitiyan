@@ -1,0 +1,156 @@
+#container{
+    width: 1200px;
+    margin: 30px auto 0 auto;
+}
+
+
+
+#header{
+    width: 100%;
+    height: 905px;
+}
+#header{
+    background-position: 50% 50%;
+    position: relative;
+    top: -80px;
+}
+.content-jpg .content-free{
+    background: transparent;
+}
+
+
+#dh
+{
+    animation:myfirst00 1s infinite linear;
+    -moz-animation:myfirst00 1s infinite linear;
+    -webkit-animation:myfirst00 1s infinite linear;
+    -o-animation:myfirst00 1s infinite linear;
+}
+
+@keyframes myfirst00
+{
+    0%   {
+        position: relative;
+        left: 0;
+    }
+    50%  {
+        position: relative;
+        left: -20px;
+    }
+    100% {
+        position: relative;
+        left: 0;
+    }
+}
+
+.free-text-box-bottom{
+    height: 765px;
+    margin: 1499px 0 0 0;
+}
+
+.free-text p{
+    width: 100%;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 41px;
+}
+.free-text{
+    width: 77%;
+    margin: 12px auto 0 auto;
+}
+
+/*导航*/
+.free-nav>div{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 20%;
+
+    animation-fill-mode:forwards;
+}
+.free-nav>div img{
+	width: 100%;
+}
+.free-nav>div:hover{
+    animation: myfirst 0.3s;
+    -moz-animation: myfirst 0.3s;
+    -webkit-animation: myfirst 0.3s;
+    -o-animation: myfirst 0.3s;
+    animation-fill-mode:forwards;
+}
+@keyframes myfirst
+{
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -10px;
+    }
+}
+.free-navdh1{
+    animation: navdh1 1.3s;
+    -moz-animation: navdh1 1.3s;
+    -webkit-animation: navdh1 1.3s;
+    -o-animation: navdh1 1.3s;
+    animation-fill-mode:forwards;
+}
+.free-navdh2{
+    animation: navdh2 1.3s;
+    -moz-animation: navdh2 1.3s;
+    -webkit-animation: navdh2 1.3s;
+    -o-animation: navdh2 1.3s;
+    animation-fill-mode:forwards;
+}
+.free-navdh3{
+    animation: navdh3 1.3s;
+    -moz-animation: navdh3 1.3s;
+    -webkit-animation: navdh3 1.3s;
+    -o-animation: navdh3 1.3s;
+    animation-fill-mode:forwards;
+}
+.free-navdh4{
+    animation: navdh4 1.3s;
+    -moz-animation: navdh4 1.3s;
+    -webkit-animation: navdh4 1.3s;
+    -o-animation: navdh4 1.3s;
+    animation-fill-mode:forwards;
+}
+@keyframes navdh4{
+    from {
+        margin-left:1000px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@keyframes navdh3{
+    from {
+        margin-left:900px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@keyframes navdh2{
+    from {
+        margin-left:800px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@keyframes navdh1{
+    from {
+        margin-left:700px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+.free-nav{
+    float: right;
+    width: 34%;
+    /*position: relative;*/
+    /*right: 20px;*/
+    /*top: 400px;*/
+    /*width: 0;*/
+}
